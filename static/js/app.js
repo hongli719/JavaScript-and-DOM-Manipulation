@@ -14,7 +14,7 @@ data.forEach((ufo) => {
       var cell = tbody.append("td");
       cell.text(value);
     });
-  });
+});
 
 
 submit.on("click", function() {
@@ -42,8 +42,7 @@ submit.on("click", function() {
           var cell = tbody.append("td");
           cell.text(value);
         });
-      });
-
+    });
 
  });
   
